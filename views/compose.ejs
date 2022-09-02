@@ -1,0 +1,17 @@
+<%-include("partials/header");%>
+
+    <p class="fs-1 fw-bold">Compose</p>
+    <form action="/compose" method="post">
+        <p class="fs-4 fw-bold">Title</p>
+
+        <input class="form-control" name="postTitle" type="text">
+        
+        <p class="fs-4 fw-bold">Post</p>
+        
+        <textarea name="postBody" class="form-control" name="" id="" cols="30" rows="10" style="height: 250px;"></textarea>
+        
+        <button class="btn btn-primary mt-4" type="submit">Publish</button>
+        
+    </form>
+
+<%-include("partials/footer");%>
