@@ -8,7 +8,7 @@ const customModule = require(__dirname + '/customModule.js');
 const mongoose = require("mongoose");
 
 
-mongoose.connect('mongodb+srv://shinjuno123:!Wnsgh2945@cluster0.jtx2chc.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('secret');
 
 const articleSchema = mongoose.Schema({
   title : String,
