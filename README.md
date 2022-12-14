@@ -57,6 +57,15 @@ Click publish button after writing your aritcle.
 You can check your articles in home page. If you click "Read more" then you can see all the content body
 
 
+## :four: :point_right: How to start
 
+```
+// install mongodb and mongosh and node.js first
+// start mongodb
+"C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+// in the project directory
+node app.js
+```
 
 
