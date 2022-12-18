@@ -3,7 +3,7 @@
 
 # :notebook: Simple Blog Toy Project :notebook:
 
-## :one: Technique Stack
+## :one: Technical Stack
 
 - HTML
 - CSS
